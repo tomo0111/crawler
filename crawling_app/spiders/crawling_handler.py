@@ -1,11 +1,4 @@
 # --*-- coding:utf8 --*--
-"""
-JSONファイル生成コマンド
-scrapy runspider crawling_handler.py -o stations.json
-
-クローラーコマンド
-scrapy crawl 名前
-"""
 import scrapy
 from scrapy.spiders import BaseSpider
 from scrapy_djangoitem import DjangoItem
